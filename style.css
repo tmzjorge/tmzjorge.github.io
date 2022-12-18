@@ -1,0 +1,97 @@
+@charset "UFT-8";
+/* @import url('https://fonts.googleapis.com/css2?family=Srisakdi&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Srisakdi&display=swap');
+
+:root {
+    --fonte-normal: 'Pacifico', cursive;;
+    --fonte-romantica: 'Srisakdi', cursive;
+    --vermelho: #A60311;
+    --rosa: #A61B34;
+    --vermelho-claro: #d904162f;
+}
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    font-family: var(--fonte-normal);
+    text-align: center;
+    background-color: var(--vermelho);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+section {
+    
+    font-family: var(--fonte-romantica);
+    font-weight: bolder;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 4vh;
+
+}
+section>p{
+    
+    padding: 15px;
+    border-radius: 5px;
+}
+section.imagem p {
+    padding: 25px;
+    background-color: var(--vermelho-claro);
+    box-shadow: 1px 1px 2px rgba(66, 0, 0, 0.395);
+    display: inline-block;
+
+}
+
+
+
+section#img1{
+    background-image: url('imagens/natalia.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+
+}
+
+section#img2 {
+    background-image: url('imagens/judith.JPG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+section#img3 {
+    background-image: url('imagens/shadow.JPG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;   
+}
+section#img4 {
+    background-image: url('imagens/murdock.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+section#especial{
+    background-image: url(imagens/jorge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+footer{
+    background-color: var(--vermelho);
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-normal);
+    font-weight: bold;
+    padding: 20px;
+    font-size: 2em;
+}
